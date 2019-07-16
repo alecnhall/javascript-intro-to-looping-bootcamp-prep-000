@@ -30,8 +30,7 @@ function forLoop(array){
     else {
       push.array(`I am ${i} strange loops.`);
     }
-
-    }
+  }
 }
 function whileLoop(n){
 
