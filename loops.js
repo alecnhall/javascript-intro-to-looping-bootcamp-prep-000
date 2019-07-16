@@ -24,8 +24,12 @@ for ([initialization];[condition];[iteration]){
 */
 function forLoop(array){
   for(let i = 0; i < 25; i ++){
-    if (i < 1){
-      console.log("I am " + i + " strange loops.");
+      push.array(`I am $[i] strange loops.`);
     }
-  }
+}
+function whileLoop(n){
+
+}
+function doWhileLoop(num){
+
 }
