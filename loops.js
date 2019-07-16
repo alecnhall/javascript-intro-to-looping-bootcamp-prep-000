@@ -24,7 +24,13 @@ for ([initialization];[condition];[iteration]){
 */
 function forLoop(array){
   for(let i = 0; i < 25; i ++){
-      push.array(`I am $[i] strange loops.`);
+    if (i = 1){
+      push.array('I am 1 strange loop.')
+    }
+    else {
+      push.array(`I am ${i} strange loops.`);
+    }
+
     }
 }
 function whileLoop(n){
